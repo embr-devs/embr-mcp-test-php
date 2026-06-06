@@ -1,0 +1,10 @@
+platform: php
+platformVersion: "8.4"
+autoDeploy: true
+
+run:
+  port: 8000
+  startCommand: "php server.php"
+
+healthCheck:
+  enabled: false

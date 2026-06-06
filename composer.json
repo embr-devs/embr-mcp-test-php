@@ -1,0 +1,23 @@
+{
+  "name": "embr-devs/embr-mcp-test-php",
+  "description": "Minimal PHP MCP server for Embr platform retest",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordan Selig",
+      "email": "seligj95@gmail.com"
+    }
+  ],
+  "require": {
+    "php-mcp/server": "^3.3",
+    "react/http": "^1.11",
+    "react/event-loop": "^1.6",
+    "monolog/monolog": "^3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "EmbrMcpTest\\": "src/"
+    }
+  }
+}
