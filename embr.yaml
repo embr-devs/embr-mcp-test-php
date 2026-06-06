@@ -4,7 +4,6 @@ autoDeploy: true
 
 run:
   port: 8000
-  startCommand: "php server.php"
 
 healthCheck:
   enabled: false
